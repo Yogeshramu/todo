@@ -1,0 +1,42 @@
+.tag {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #f9f9f9;
+    border: 1px solid #dfe3e6;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tag {
+    border: none;
+    padding: 8px 16px;
+    margin: 4px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .tag.selected {
+    font-weight: bold;
+    color: white; 
+  }
+  
+
+  
+  .task_input {
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .task_status {
+    margin-right: 10px;
+  }
+  
+  .task_submit {
+    padding: 10px 20px;
+  }
+  

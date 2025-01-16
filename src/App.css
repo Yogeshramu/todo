@@ -1,0 +1,30 @@
+.app {
+    display: grid;
+    grid-template-rows: 150px auto;
+}
+
+.app_main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 8%;
+}
+
+.task_column {
+    width: 33.33%;
+    margin: 20px;
+}
+
+.logout-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
